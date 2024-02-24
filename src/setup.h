@@ -23,8 +23,8 @@
 #define TX_PIN    26// Pin connected to the RX pin of X10A
 #else 
 //Default GPIO PINs for Serial2:
-#define RX_PIN    16// Pin connected to the TX pin of X10A 
-#define TX_PIN    17// Pin connected to the RX pin of X10A
+#define RX_PIN    32// Pin connected to the TX pin of X10A 
+#define TX_PIN    26// Pin connected to the RX pin of X10A
 #endif
 
 #define PIN_THERM 0// Pin connected to the thermostat relay (normally open)
@@ -89,7 +89,7 @@
 //#include "def/Altherma(ERGA D EHV-EHB-EHVZ DA series 04-08kW).h"
 //#include "def/Altherma(ERGA D EHV-EHB-EHVZ DJ series 04-08 kW).h"
 //#include "def/Altherma(ERGA E EHSH-X P30-50 E_EF series 04-08kW-ECH2O).h"
-//#include "def/Altherma(ERGA E EHV-EHB-EHVZ E_EJ series 04-08kW).h"
+#include "def/Altherma(ERGA E EHV-EHB-EHVZ E_EJ series 04-08kW).h"
 //#include "def/Altherma(ERLA D EBSH-X 16P30-50 D SERIES 11-16kW-ECH2O).h"
 //#include "def/Altherma(ERLA D EBV-EBB-EBVZ D SERIES 11-16kW).h"
 //#include "def/Altherma(ERLA03 D EHFH-EHFZ DJ series 3kW).h"
