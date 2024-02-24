@@ -38,6 +38,13 @@
 #define SG_RELAY_HIGH_TRIGGER
 //#define SG_RELAY_LOW_TRIGGER
 
+//Pulse Meter control - Optional:
+//Uncomment and set to enable Pulse Meter mqtt functions
+// #define PIN_PULSE 25// Pin connected to pulse meter relay
+// #define PULSE_LED_BUILTIN 1 // also pulse the build in LED
+#define PULSE_PER_kWh 1000  // match setting on HP (TODO hint for setting path)
+#define PULSE_DURATION_MS 200  // Duration of the pulse, decrease on very high energy settings (TODO give example)
+
 // DO NOT CHANGE: Defines the SG active/inactive relay states, according to the definition of the trigger status
 #if defined(SG_RELAY_LOW_TRIGGER)
 #define SG_RELAY_ACTIVE_STATE LOW
